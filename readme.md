@@ -1,3 +1,5 @@
+<div align="center"><img src="https://raw.githubusercontent.com/cheatfreak47/mcas-tracker-scripts/refs/heads/main/banner.png" alt="MCAS Amiibo Scripts Logo"></div>
+
 # Most Complete Amiibo Set Tracker Support Scripts
 Provided in this repo are multiple python scripts for working with amiibo files, many of which leverage [Pyamiibo](https://github.com/tobywf/pyamiibo) and require `key-retail.bin` to do anything.
 
