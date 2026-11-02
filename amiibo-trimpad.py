@@ -11,7 +11,7 @@ import sys
 print("👾  amiibo trimpad v1.7.5 by CheatFreak  👾\n"
       "-----------------------------------------\n"
       "Amiibo binary size trimming, padding, and extension management utility.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 
 # Constants

@@ -11,7 +11,7 @@ import sys
 print("👾  gen amiibo csv v1.6.4 by CheatFreak  👾\n"
       "-----------------------------------------\n"
       "Scan directory for .bin amiibo files and export IDs and names to CSV.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 
 # Constants

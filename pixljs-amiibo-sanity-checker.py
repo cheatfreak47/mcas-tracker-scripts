@@ -11,7 +11,7 @@ print("👾  Pixljs amiibo directory sanity checker 1.8 by CheatFreak  👾\n"
       "----------------------------------------------------------------\n"
       "Sanity check amiibo folder structures for pixl.js device compatibility.\n"
       "Tries to check bins in the current folder or local mcas-tracker repo if ran with no commands.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 # User-Editable Defaults
 

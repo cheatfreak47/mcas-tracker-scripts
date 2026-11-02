@@ -11,7 +11,7 @@ print("👾  py amiitool v3.9.1 by CheatFreak  👾\n"
       "-----------------------------------------\n"
       "A reimplementation of amiitool in python, with pyamiibo.\n"
       "By default, it tries to decrypt bin files, or encrypt dec files in the current folder.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 try:
     from amiibo import AmiiboDump, AmiiboMasterKey

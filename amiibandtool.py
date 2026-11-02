@@ -11,7 +11,7 @@ print("👾  amiibandtool v1.6.0 by CheatFreak  👾\n"
       "-----------------------------------------\n"
       "World's first tool for working with Super Nintendo World Wristbands.\n"
       "By default, it tries to decrypt bin files, or encrypt dec files in the current folder.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 try:
     from amiibo import AmiiboDump, AmiiboMasterKey

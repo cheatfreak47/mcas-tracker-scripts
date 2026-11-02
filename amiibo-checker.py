@@ -11,7 +11,7 @@ print("👾  amiibo checker v1.5.3 by CheatFreak  👾\n"
       "-------------------------------------------\n"
       "Checks if amiibo are invalid, if they have save data, non-zero write counts, or are non-standard sizes.\n"
       "Tries to check bins in the current folder or local mcas-tracker repo if ran with no commands.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 try:
     from amiibo import AmiiboDump, AmiiboMasterKey

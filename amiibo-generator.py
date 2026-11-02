@@ -14,7 +14,7 @@ from typing import NamedTuple
 print("👾  amiibo generator v1.4.5 by CheatFreak  👾\n"
       "---------------------------------------------\n"
       "A tool for casting dark magic to generate authentic looking amiibo bin files from keys and an ID."
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 try:
     from amiibo import AmiiboDump, AmiiboMasterKey

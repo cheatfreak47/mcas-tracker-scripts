@@ -14,7 +14,7 @@ print("👾  amiibo flipper tool v2.11 by CheatFreak  👾\n"
       "A simple tool for converting back and forth between nfc format with amiibo bin files.\n"
       "Works going from nfc to bin for all amiibo, supports going back to NFC for NTAG215 and Power-Up Bands.\n"
       "Tries to convert files found in the folder if ran with no commands.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 
 # Exit & Error Helpers

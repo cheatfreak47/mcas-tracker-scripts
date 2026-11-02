@@ -11,7 +11,7 @@ from typing import List, Optional
 print("👾  amiibo uid randomizer v1.6.2 by CheatFreak  👾\n"
       "------------------------------------------------\n"
       "A tool for casting dark magic to create randomized UID copies of an amiibo.\n"
-      "Run with -h to for helpful information on all functions.")
+      "Run with -h to for helpful information on all functions.\n")
 
 try:
     from amiibo import AmiiboDump, AmiiboMasterKey
