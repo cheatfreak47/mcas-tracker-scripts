@@ -7,7 +7,7 @@ The Most Complete Amiibo Set is actually tracked in a private closed source repo
 These are the main tools for working with amiibo bin files. Other similar ones exist, but I found them to be lacking in various ways. Namely, accuracy issues and oversights. My scripts have a lot of failsafes, and are far more careful than most other amiibo tools.
 
 ### py-amiitool.py
-A reimplementation of the original [amiitool](https://github.com/socram8888/amiitool) with pyamiibo that is a billion times less annoying to use. Includes encrypt, decrypt, copy save, and reset, as well as a fix function to attempt to repair broken amiibo bin files (more effeciently mirroring all functionality of [TheAmiiboDoctor](https://github.com/amec0e/TheAmiiboDoctor). Also includes auto-functionality and drag-n-drop functionality. It only works with NTAG215s.
+A reimplementation of the original [amiitool](https://github.com/socram8888/amiitool) with pyamiibo that is a billion times less annoying to use. Includes encrypt, decrypt, copy save, and reset, as well as a fix function to attempt to repair broken amiibo bin files (more effeciently mirroring all functionality of [TheAmiiboDoctor](https://github.com/amec0e/TheAmiiboDoctor)). Also includes auto-functionality and drag-n-drop functionality. It only works with NTAG215s.
 
 ### amiibandtool.py
 A tool for working with Super Nintendo World Powerup Bands, to my knowledge, the first of it's kind. These tags are NT3H2111. Has encrypt, decrypt functionality, as well as converting them to NTAG215 format. Kind of a more basic amiitool specifically for working with raw dumps of Power-Up Bands.
