@@ -27,6 +27,9 @@ A simple tool that makes it easy to mass trim or expand amiibo bin files to diff
 ## Secondary Tools
 These tools are the more useful tools for my tracker repository. Info collection type stuff and utilities for making my life easier.
 
+### amiibo-diag.py
+A simple tool that parses amiibo bin and dec files and outputs it to the console, most notably, basic save info. It can also filter through hundreds of files and only output files that match your chosen filter mode. Displays Amiibo ID, Amiibo Form, Tag Type, UID, BCCs, PWD, Save Presence, Write Count, Reg Date, Write Date, Nickname, Mii Name, Mii Author, and Save TID. All with smart parsing that doesn't try to display garbage data. Currently only supports NTAG215s. Full support for NT3H2111 (Power-Up Bands) and Basic Support for NT3H2211 (Amiibo v3) is planned eventually.
+
 ### amiibo-checker.py
 A simple tool that checks and validates and outputs to the console the state of an amiibo bin file. Files with write counts of more than 0, and if the initialization bit is set get flagged, because MCAS is supposed to be all raw straight from the factory amiibo binary dumps. This needs more work though honestly. I want to check health of amiibo more comprehensively with it in a future version.
 
