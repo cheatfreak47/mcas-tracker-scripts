@@ -1,5 +1,7 @@
 # Most Complete Amiibo Set Tracker Support Scripts
-Provided in this sub folder are multiple python scripts for working with amiibo files, many of which leverage [Pyamiibo](https://github.com/tobywf/pyamiibo) and require `key-retail.bin` to do anything.
+Provided in this repo are multiple python scripts for working with amiibo files, many of which leverage [Pyamiibo](https://github.com/tobywf/pyamiibo) and require `key-retail.bin` to do anything.
+
+The Most Complete Amiibo Set is actually tracked in a private closed source repo called mcas-tracker. When I migrated to a git repo for managing the project, I decided to look at ways of validating and working with amiibo and found everything out there fell short for some reasons and made my own toolchain leveraging [Pyamiibo](https://github.com/tobywf/pyamiibo), and kept it private for a few months while I worked on them. Now that I'm mostly done working on the scripts, here they are, open sourced and public domain.
 
 ## Primary Tools
 These are the main tools for working with amiibo bin files. Other similar ones exist, but I found them to be lacking in various ways. Namely, accuracy issues and oversights. My scripts have a lot of failsafes, and are far more careful than most other amiibo tools.
@@ -23,11 +25,10 @@ A complete rewrite of [amiibo-sn-changer by DocKlokMan](https://gbatemp.net/thre
 A simple tool that makes it easy to mass trim or expand amiibo bin files to different valid amiibo bin file sizes. There's some other functionality too there to assist with extensions and such for pixljs preprocessing. It's mainly for pixljs preprocessing, actually.
 
 ## Secondary Tools
-These tools are the more useful tools for my repository. Info collection type stuff and utilities for making my life easier.
+These tools are the more useful tools for my tracker repository. Info collection type stuff and utilities for making my life easier.
 
 ### amiibo-checker.py
 A simple tool that checks and validates and outputs to the console the state of an amiibo bin file. Files with write counts of more than 0, and if the initialization bit is set get flagged, because MCAS is supposed to be all raw straight from the factory amiibo binary dumps. This needs more work though honestly. I want to check health of amiibo more comprehensively with it in a future version.
 
 ### pixljs-amiibo-sanity-checker.py
 A simple tool that checks a folder to validate it against the path constraints and desirable file sizes of a pixljs based tag toy emulator, like the Flashiibo Pro.
-
