@@ -8,15 +8,10 @@ import os
 from pathlib import Path
 import sys
 
-print("👾  amiibo trimpad v1.7.5 by CheatFreak  👾\n"
+print("👾  amiibo trimpad v1.7.6 by CheatFreak  👾\n"
       "-----------------------------------------\n"
       "Amiibo binary size trimming, padding, and extension management utility.\n"
       "Run with -h to for helpful information on all functions.\n")
-
-
-# Constants
-
-VALID_SIZES = {532, 540, 572}
 
 
 # Exit & Error Helpers
@@ -135,7 +130,7 @@ def process_file(file_path: Path, target_size: int, expand_flag: bool, strip_ext
         with open(file_path, 'rb') as f:
             data = f.read()
             orig_size = len(data)
-            if orig_size not in VALID_SIZES:
+            if orig_size not in {532, 540, 572}:
                 print(f"   ❌  Error: Invalid file size ({orig_size}B). Skipping.\n")
                 return False
 
