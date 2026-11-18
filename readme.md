@@ -37,3 +37,6 @@ A simple tool that checks and validates and outputs to the console the state of 
 
 ### pixljs-amiibo-sanity-checker.py
 A simple tool that checks a folder to validate it against the path constraints and desirable file sizes of a pixljs based tag toy emulator, like the Flashiibo Pro.
+
+### amiibo-dump.py
+A very WIP tool to use pyscard to dump amiibo bin files from real amiibo on PC with a smart card reader. Supports NTAG215 (v2), NTAG2211 (v3), and in theory, supports NTAG2111 (SNW), but it's only been tested against v2 and v3 amiibo. I only tested it with my ACR1252U, but it may work with other readers fine, if pyscard handles them properly and my code is resiliant enough. Proper support of SNW bands is the current priority for development on this tool.
